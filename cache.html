@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest"><head>
+<title>Ps4 Auto_JB_Offline-Host v9.00 FW by Games_World Ver 3.0</title>
+<style>
+    html, body{
+background-image: url('img.jpg');
+height: 100%;
+ background-position: center;
+ background-size: cover;
+background-attachment: fixed;
+background-repeat:no-repeat;
+margin: 0;
+height: 100%;
+padding: 0;
+overflow: hidden;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: bold;
+text-align: center;  
+width: 100%;
+overflow: hidden;
+}
+ .content 
+ {
+  width:80%;
+  margin-left:7.5%;
+  background:rgba(0,0,0,0.5);
+  color:white;
+  margin-top:4%;
+  font-size:2px;
+  text-align:center;
+  border-radius:30px;
+  padding:20px;
+  line-height:65px;
+ }
+ #clock{
+ float:right;
+ margin-right:2.25%;
+ margin-top: 0px;
+ font-weight:bold;
+ font-size:20px;
+  color: white;
+  font-family: Almendra Display;
+			font-style:italic;
+}
+#date {
+ float:left;
+ margin-left:1.25%;
+ font-weight:bold;
+ margin-top: 5px;
+ font-size:20px;
+ color: white;
+ font-family: Almendra Display;
+			font-style:italic;
+}
+ .hue 
+ {
+  color:yellow;
+  padding:10px;
+  border-radius:10px;
+  animation:hue 5s linear infinite;
+  -webkit-animation: hue 5s linear infinite;
+  box-shadow: 0px 0px 50px yellow;
+  color:white;
+  background:rgba(255,255,0,0.4);
+ }
+ .hue:hover{
+  color:yellow;
+  background:transparent;
+ }
+ @keyframes hue{
+ 0%{
+ filter:hue-rotate(0deg);
+ -webkit-filter:hue-rotate(0deg);
+ }
+ 10%{
+ box-shadow: 0px 1px 50px yellow;
+ }
+ 20%{
+ box-shadow: 1px 1px 50px yellow;
+ }
+ 30%{
+ box-shadow: 1px 0px 50px yellow;
+ }
+ 40%{
+  box-shadow: 1px -1px 50px yellow;
+ }
+ 50%{
+ box-shadow: 0px -1px 50px yellow;
+ }
+ 60%{
+ box-shadow: -1px -1px 50px yellow;
+ }
+ 70%{
+ box-shadow: -1px 0px 50px yellow;
+ }
+ 80%{
+ box-shadow: -1px 1px 50px yellow;
+ }
+ 90%{
+ box-shadow: 0px 1px 50px yellow;
+ }
+ 100%{
+ filter:hue-rotate(360deg);
+ -webkit-filter:hue-rotate(360deg);
+ }
+ } 
+h1 {
+font-size:16px;text-align:center;color:white;font-family:Almendra Display;font-style:italic;text-shadow: 4px 4px 4px black;color:white;}
+
+</style>
+</head>
+<body>
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));setTimeout(function(){window.msgs2.innerHTML="Installing Offline Cache: " + Percent + "%";},500)}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs2.innerHTML="Cache Installed Successfully ✔";},1500);setTimeout(function(){window.msgs2.innerHTML="Now Close And Re-Open Your Browser ...";},3500);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<h1 id="msgs">Ps4 Auto_JB_Offline-Host v9.00 FW by Games_World Ver 3.0</h1>
+<hr>
+<br>
+<h1 id=msgs2 style="font-size:30px; margin-top: 77px; margin-bottom: 391px;"> Waiting... </h1>
+<br>
+	<div>
+ 	 
+	 <span style='font-size:18px;text-align:center;color:white;font-family:Almendra Display;font-style:italic;text-shadow: 4px 4px 4px black;color:white'class="hue" >Games_World</span><br>
+	 <span style='font-size:19px;text-align:center;color:white;font-family:Almendra Display;font-style:italic;text-shadow: 4px 4px 4px black;color:white'>Hosur</span><br>&nbsp;&nbsp; <br>
+    <span style='font-size:20px;text-align:center;color:white;font-family:Almendra Display;font-style:italic;text-shadow: 4px 4px 4px black;color:white' class="hue">Customized by PSJ</span>
+	 
+	 
+ 	
+	</div>
+</body>
+</html>
